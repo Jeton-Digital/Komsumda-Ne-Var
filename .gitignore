@@ -1,0 +1,55 @@
+# Ignore PC/Mac/Linux (OS) related files
+*/*/*/.DS_Store/
+*/*/.DS_Store/
+*/.DS_Store/
+.DS_Store
+
+# Ignore log and pyc files
+*.log
+*.pyc
+
+# Ignore pycache folders
+*/*/*/__pycache__/
+*/*/__pycache__/
+*/__pycache__/
+
+# Ignore the jupyter notebook checkpoints
+**/*.ipynb_checkpoints/
+
+# Ignore default database file
+db.sqlite3
+
+# Ignore excel files
+*.xlsx
+*.xlsm
+
+tmp/
+
+# Ignore the media folder
+#media
+
+# Ignore notebooks
+notebooks/ignore/*
+!notebooks/ignore/ignore.md
+notebooks/share/.ipynb_checkpoints
+
+# Ignore migration folders
+accounts/migrations/*
+!accounts/migrations/__init__.py
+
+
+# Ignore the local related requirement files
+requirements/local.txt
+requirements/production.txt
+
+# Ignore the local related setting files
+config/settings/local.py
+config/settings/production.py
+
+# Ignore python-version file
+.python-version
+
+# Ignore the secret files
+secrets_local.json
+secrets_production.json
+
